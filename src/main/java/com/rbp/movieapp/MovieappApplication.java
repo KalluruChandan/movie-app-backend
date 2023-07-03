@@ -74,5 +74,6 @@ public class MovieappApplication implements CommandLineRunner {
 		roles.add(adminRole);
 		adminUser.setRoles(roles);
 		userRepository.save(adminUser);
+		System.out.println("Hello World!!!")
 	}
 }
